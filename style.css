@@ -45,6 +45,9 @@ a:active {
 [class*="skill"] > ion-icon {
   font-size: 2.5rem;
 }
+#footer {
+  color: white;
+}
 @media (min-width: 850px) {
   [class*="skill"] {
     border: 0;
@@ -60,18 +63,27 @@ a:active {
   .contact-btn > a {
     font-size: 1.5rem;
   }
-  .skill-html:hover {
-    background-color: rgb(255, 159, 34);
+  #logo-html {
+    color: white;
+  }
+  #logo-css {
+    color: white;
+  }
+  #logo-js {
+    color: white;
+  }
+  #logo-html:hover {
+    background-color: var(--html);
     color: rgb(0, 0, 0);
     transition: 1s;
   }
-  .skill-css:hover {
-    background-color: rgb(43, 142, 255);
+  #logo-css:hover {
+    background-color: var(--css);
     color: rgb(0, 0, 0);
     transition: 1s;
   }
-  .skill-js:hover {
-    background-color: rgb(231, 228, 21);
+  #logo-js:hover {
+    background-color: var(--js);
     color: rgb(0, 0, 0);
     transition: 1s;
   }
