@@ -1,0 +1,78 @@
+:root {
+  --html: rgb(255, 159, 34);
+  --css: rgb(43, 142, 255);
+  --js: rgb(231, 228, 21);
+}
+ul {
+  list-style: none;
+}
+.btn:focus,
+.btn:active,
+a:focus,
+a:active {
+  outline: none !important;
+  box-shadow: none !important;
+}
+.skill-html {
+  border: 1px solid var(--html);
+  margin-bottom: 2%;
+  transition: 1s;
+}
+.skill-css {
+  border: 1px solid var(--css);
+  margin-bottom: 2%;
+  transition: 1s;
+}
+.skill-js {
+  border: 1px solid var(--js);
+  margin-bottom: 2%;
+  transition: 1s;
+}
+#logo-html {
+  color: var(--html);
+}
+#logo-css {
+  color: var(--css);
+}
+#logo-js {
+  color: var(--js);
+}
+
+[class*="skill"] {
+  font-size: 1.5rem;
+  transition: 1.5s;
+}
+[class*="skill"] > ion-icon {
+  font-size: 2.5rem;
+}
+@media (min-width: 850px) {
+  [class*="skill"] {
+    border: 0;
+    font-size: 2rem;
+    transition: 1.5s;
+  }
+  [class*="skill"] > ion-icon {
+    font-size: 6rem;
+  }
+  .contact-btn > ion-icon {
+    font-size: 3rem;
+  }
+  .contact-btn > a {
+    font-size: 1.5rem;
+  }
+  .skill-html:hover {
+    background-color: rgb(255, 159, 34);
+    color: rgb(0, 0, 0);
+    transition: 1s;
+  }
+  .skill-css:hover {
+    background-color: rgb(43, 142, 255);
+    color: rgb(0, 0, 0);
+    transition: 1s;
+  }
+  .skill-js:hover {
+    background-color: rgb(231, 228, 21);
+    color: rgb(0, 0, 0);
+    transition: 1s;
+  }
+}
