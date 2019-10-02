@@ -1,8 +1,16 @@
+@import url("https://fonts.googleapis.com/css?family=Pacifico&display=swap");
 :root {
   --html: rgb(255, 168, 55);
   --css: rgb(62, 152, 255);
   --js: rgb(231, 228, 21);
+  --brand-primary: rgb(36, 137, 146);
 }
+
+h2,
+.navbar-brand {
+  font-family: "Pacifico", cursive;
+}
+
 ul {
   list-style: none;
 }
@@ -39,8 +47,17 @@ ul {
 [class*="skill"] > ion-icon {
   font-size: 2.5rem;
 }
+#navbar {
+  background-color: var(--brand-primary);
+}
+#profile-pic {
+  border: 2px solid var(--brand-primary);
+}
 #footer {
   color: white;
+}
+.btn-success {
+  background-color: var(--brand-primary) !important;
 }
 @media (min-width: 850px) {
   [class*="skill"] {
