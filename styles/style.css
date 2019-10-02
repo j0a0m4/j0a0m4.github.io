@@ -6,13 +6,7 @@
 ul {
   list-style: none;
 }
-.btn:focus,
-.btn:active,
-a:focus,
-a:active {
-  outline: none !important;
-  box-shadow: none !important;
-}
+
 .skill-html {
   border: 1px solid var(--html);
   margin-bottom: 2%;
