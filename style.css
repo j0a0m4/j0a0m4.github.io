@@ -4,6 +4,7 @@
   --css: rgb(62, 152, 255);
   --js: rgb(231, 228, 21);
   --brand-primary: rgb(36, 137, 146);
+  --brand-primary-hover: rgb(33, 118, 126);
 }
 
 h2,
@@ -56,8 +57,12 @@ ul {
 #footer {
   color: white;
 }
-.btn-success {
+.btn-primary {
   background-color: var(--brand-primary) !important;
+  border: 1px solid var(--brand-primary) !important;
+}
+.btn-primary:hover {
+  background-color: var(--brand-primary-hover) !important;
 }
 @media (min-width: 850px) {
   [class*="skill"] {
