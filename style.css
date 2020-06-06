@@ -131,4 +131,8 @@ ul {
     color: rgb(0, 0, 0);
     transition: 1s;
   }
+
+  #contato-btns {
+    flex-direction: row !important;
+  }
 }
