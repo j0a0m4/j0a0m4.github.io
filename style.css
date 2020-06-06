@@ -3,9 +3,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
 :root {
-  --html: rgb(255, 168, 55);
-  --css: rgb(62, 152, 255);
-  --js: rgb(231, 228, 21);
+  --html: rgb(245, 170, 71);
+  --css: rgb(97, 166, 245);
+  --js: rgb(233, 230, 65);
+  --sql: rgb(140, 235, 211);
+  --terminal: rgb(255, 255, 255);
+  --python: rgb(178, 160, 238);
+  --react: rgb(108, 170, 250);
+  --node: rgb(89, 200, 89);
+  --cloud: rgb(224, 126, 159);
   --brand-primary: rgb(36, 137, 146);
   --brand-primary-hover: rgb(33, 118, 126);
 }
@@ -23,7 +29,7 @@ ul {
   list-style: none;
 }
 
-.skill-html {
+/* .skill-html {
   border: 1px solid var(--html);
   margin-bottom: 2%;
   transition: 1s;
@@ -51,7 +57,7 @@ ul {
 
 #logo-js {
   color: var(--js);
-}
+} */
 
 [class*="skill"] {
   font-size: 1.5rem;
@@ -94,6 +100,11 @@ ul {
     font-size: 6rem;
   }
 
+  [id*="logo"]:hover {
+    color: rgb(0, 0, 0);
+    transition: 1s;
+  }
+
   .contact-btn > ion-icon {
     font-size: 3rem;
   }
@@ -102,7 +113,7 @@ ul {
     font-size: 1.5rem;
   }
 
-  #logo-html {
+  /* #logo-html {
     color: white;
   }
 
@@ -112,24 +123,42 @@ ul {
 
   #logo-js {
     color: white;
-  }
+  } */
 
   #logo-html:hover {
     background-color: var(--html);
-    color: rgb(0, 0, 0);
-    transition: 1s;
   }
 
   #logo-css:hover {
     background-color: var(--css);
-    color: rgb(0, 0, 0);
-    transition: 1s;
   }
 
   #logo-js:hover {
     background-color: var(--js);
-    color: rgb(0, 0, 0);
-    transition: 1s;
+  }
+
+  #logo-sql:hover {
+    background-color: var(--sql);
+  }
+
+  #logo-terminal:hover {
+    background-color: var(--terminal);
+  }
+
+  #logo-python:hover {
+    background-color: var(--python);
+  }
+
+  #logo-react:hover {
+    background-color: var(--react);
+  }
+
+  #logo-node:hover {
+    background-color: var(--node);
+  }
+
+  #logo-cloud:hover {
+    background-color: var(--cloud);
   }
 
   #contato-btns {
